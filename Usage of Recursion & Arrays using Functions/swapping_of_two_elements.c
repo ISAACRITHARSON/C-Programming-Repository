@@ -14,3 +14,14 @@ printf("Enter a & b: ");
 scanf("%d%d",&a,&b);
 swap(a,b);
 }
+*a=*b;
+*b=t;
+printf("\nAfter swapping:a=%d b=%d\n",*a,*b);
+}
+main()
+{
+int a,b;
+printf("Eter the value for a and b: ");
+scanf("%d%d",&a,&b);
+swap(&a,&b);
+}
