@@ -15,4 +15,4 @@ printf(“a>>1=%d\n”,a>>1”);
 printf(“a<<2=%d\n”,a<<2”);
 printf(“b>>1=%d\n”,b>>1”);
 printf(“b<<2=%d\n”,b<<2”);
-}
+
